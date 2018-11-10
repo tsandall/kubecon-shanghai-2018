@@ -1,0 +1,21 @@
+# Map roles to permissions.
+roles:
+- name: "owner"
+  permissions:
+  - action: "read"
+    resource: "pets"
+  - action: "create"
+    resource: "pets"
+- name: "veterinarian"
+  permissions:
+  - action: "read"
+    resource: "pet_details"
+  - action: "update"
+    resource: "pet_details"
+
+# Map users to roles.
+bindings:
+- user: "bob"
+  roles: ["owner"]
+- user: "alice"
+  roles: ["veterinarian"]

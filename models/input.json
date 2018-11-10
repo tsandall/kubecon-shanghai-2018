@@ -1,0 +1,6 @@
+{
+    "user": "bob",
+    "action": "read",
+    "resource": "pets",
+    "sourceIP": "10.1.1.10"
+}

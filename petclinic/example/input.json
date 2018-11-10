@@ -1,0 +1,9 @@
+{
+    "subject": {
+        "user": "bob"
+    },
+    "method": "GET",
+    "path": [
+        "pets"
+    ]
+}
